@@ -1,0 +1,33 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/DesignCourse_asif/full-adder-1bit/full-adder-8bit/full_adder_circuit_1b_tb_isim_beh.exe -prj /home/ise/DesignCourse_asif/full-adder-1bit/full-adder-8bit/full_adder_circuit_1b_tb_beh.prj work.full_adder_circuit_1b_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/DesignCourse_asif/full-adder-1bit/full-adder-8bit/nand-gate.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/full-adder-1bit/full-adder-8bit/not-gate.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/full-adder-1bit/full-adder-8bit/xor-gate.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/full-adder-1bit/full-adder-8bit/and-gate.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/full-adder-1bit/full-adder-8bit/or-gate.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/full-adder-1bit/full-adder-8bit/half-adder-circuit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/full-adder-1bit/full-adder-8bit/full-adder-1b.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/full-adder-1bit/full-adder-8bit/full-adder-circuit-1b-tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95468 KB
+Fuse CPU Usage: 1030 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity nand_gate [nand_gate_default]
+Compiling architecture structural of entity xor_gate [xor_gate_default]
+Compiling architecture structural of entity not_gate [not_gate_default]
+Compiling architecture structural of entity and_gate [and_gate_default]
+Compiling architecture structural of entity half_adder [half_adder_default]
+Compiling architecture structural of entity or_gate [or_gate_default]
+Compiling architecture structural of entity full_adder [full_adder_default]
+Compiling architecture behavior of entity full_adder_circuit_1b_tb
+Time Resolution for simulation is 1ps.
+Compiled 17 VHDL Units
+Built simulation executable /home/ise/DesignCourse_asif/full-adder-1bit/full-adder-8bit/full_adder_circuit_1b_tb_isim_beh.exe
+Fuse Memory Usage: 104128 KB
+Fuse CPU Usage: 1110 ms
+GCC CPU Usage: 360 ms

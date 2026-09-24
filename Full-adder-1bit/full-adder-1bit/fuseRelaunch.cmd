@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/DesignCourse_asif/full-adder-1bit/full-adder-8bit/full_adder_circuit_1b_tb_isim_beh.exe" -prj "/home/ise/DesignCourse_asif/full-adder-1bit/full-adder-8bit/full_adder_circuit_1b_tb_beh.prj" "work.full_adder_circuit_1b_tb" 

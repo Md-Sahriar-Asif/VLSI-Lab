@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "/home/ise/DesignCourse_asif/full-adder-1bit/full-adder-8bit/and_gate.xst" -ofn "/home/ise/DesignCourse_asif/full-adder-1bit/full-adder-8bit/and_gate.syr" 
+xst -intstyle ise -ifn "/home/ise/DesignCourse_asif/full-adder-1bit/full-adder-8bit/and_gate.xst" -ofn "/home/ise/DesignCourse_asif/full-adder-1bit/full-adder-8bit/and_gate.syr" 
+xst -intstyle ise -ifn "/home/ise/DesignCourse_asif/full-adder-1bit/full-adder-8bit/and_gate.xst" -ofn "/home/ise/DesignCourse_asif/full-adder-1bit/full-adder-8bit/and_gate.syr" 
