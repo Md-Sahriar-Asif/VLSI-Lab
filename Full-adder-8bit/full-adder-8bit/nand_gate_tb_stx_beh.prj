@@ -1,0 +1,2 @@
+vhdl isim_temp "nand-gate-circuit.vhd"
+vhdl isim_temp "nand-gate-tb.vhd"

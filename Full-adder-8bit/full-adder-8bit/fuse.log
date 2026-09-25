@@ -1,0 +1,21 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/DesignCourse_asif/full-adder/full-adder-8bit/nand_gate_tb_isim_beh.exe -prj /home/ise/DesignCourse_asif/full-adder/full-adder-8bit/nand_gate_tb_beh.prj work.nand_gate_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/DesignCourse_asif/full-adder/full-adder-8bit/nand-gate-circuit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/full-adder/full-adder-8bit/nand-gate-tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95316 KB
+Fuse CPU Usage: 1010 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture dataflow of entity nand_gate [nand_gate_default]
+Compiling architecture behavior of entity nand_gate_tb
+Time Resolution for simulation is 1ps.
+Compiled 5 VHDL Units
+Built simulation executable /home/ise/DesignCourse_asif/full-adder/full-adder-8bit/nand_gate_tb_isim_beh.exe
+Fuse Memory Usage: 396816 KB
+Fuse CPU Usage: 1060 ms
+GCC CPU Usage: 270 ms

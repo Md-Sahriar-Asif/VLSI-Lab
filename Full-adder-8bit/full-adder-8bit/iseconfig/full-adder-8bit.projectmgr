@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="full-adder-8bit" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/adder_8bit - Structural |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|full-adder-circuit-8bit.vhd/HIGH_NIBBLE - high_nibble_4bit - Structural/FA - full_adder - Structural/U1 - half_adder - Structural</ClosedNode>
+         <ClosedNode>/adder_8bit - Structural |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|full-adder-circuit-8bit.vhd/HIGH_NIBBLE - high_nibble_4bit - Structural/FA - full_adder - Structural/U2 - half_adder - Structural</ClosedNode>
+         <ClosedNode>/adder_8bit - Structural |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|full-adder-circuit-8bit.vhd/HIGH_NIBBLE - high_nibble_4bit - Structural/FA - full_adder - Structural/U2 - half_adder - Structural/U1 - xor_gate - Structural</ClosedNode>
+         <ClosedNode>/adder_8bit - Structural |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|full-adder-circuit-8bit.vhd/HIGH_NIBBLE - high_nibble_4bit - Structural/FA - full_adder - Structural/U2 - half_adder - Structural/U2 - and_gate - Structural</ClosedNode>
+         <ClosedNode>/adder_8bit - Structural |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|full-adder-circuit-8bit.vhd/HIGH_NIBBLE - high_nibble_4bit - Structural/FA - full_adder - Structural/U3 - or_gate - Structural</ClosedNode>
+         <ClosedNode>/adder_8bit - Structural |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|full-adder-circuit-8bit.vhd/HIGH_NIBBLE - high_nibble_4bit - Structural/FA - full_adder - Structural/U3 - or_gate - Structural/U1 - not_gate - Structural</ClosedNode>
+         <ClosedNode>/adder_8bit - Structural |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|full-adder-circuit-8bit.vhd/HIGH_NIBBLE - high_nibble_4bit - Structural/FA - full_adder - Structural/U3 - or_gate - Structural/U2 - not_gate - Structural</ClosedNode>
+         <ClosedNode>/adder_8bit - Structural |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|full-adder-circuit-8bit.vhd/LOW_NIBBLE - low_nibble_4bit - Structural</ClosedNode>
+         <ClosedNode>/adder_8bit - Structural |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|full-adder-circuit-8bit.vhd/LOW_NIBBLE - low_nibble_4bit - Structural/FA - full_adder - Structural</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>adder_8bit - Structural (/home/ise/DesignCourse_asif/full-adder/full-adder-8bit/full-adder-circuit-8bit.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000205000000020000000000000000000000000200000064ffffffff000000810000000300000002000002050000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>adder_8bit - Structural (/home/ise/DesignCourse_asif/full-adder/full-adder-8bit/full-adder-circuit-8bit.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001f2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001f20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000390000000040101000100000000000000000000000064ffffffff000000810000000000000004000000ca00000001000000000000005d0000000100000000000000840000000100000000000001e50000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>and-gate-tb.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000128000000010001000100000000000000000000000064ffffffff000000810000000000000001000001280000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/adder_8bit - Structural |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|full-adder-circuit-8bit.vhd</ClosedNode>
+         <ClosedNode>/and_gate_tb - behavior |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|and-gate-tb.vhd</ClosedNode>
+         <ClosedNode>/full_adder_8bit_tb - behavior |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|full-adder-8bit-tb.vhd</ClosedNode>
+         <ClosedNode>/full_adder_8bit_tb - behavior |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|full-adder-8bit-tb.vhd/uut - adder_8bit - Structural/HIGH_NIBBLE - high_nibble_4bit - Structural</ClosedNode>
+         <ClosedNode>/full_adder_8bit_tb - behavior |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|full-adder-8bit-tb.vhd/uut - adder_8bit - Structural/LOW_NIBBLE - low_nibble_4bit - Structural/FA - full_adder - Structural</ClosedNode>
+         <ClosedNode>/full_adder_circuit_1b_tb - behavior |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|full-adder-circuit-1b-tb.vhd</ClosedNode>
+         <ClosedNode>/half_adder_tb - behavior |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|half-adder-circuit-tb.vhd</ClosedNode>
+         <ClosedNode>/high_nibble_4bit_tb - behavior |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|high-nibble-4bit-tb.vhd</ClosedNode>
+         <ClosedNode>/low_nibble_4bit_tb - behavior |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|low-nibble-4bit-tb.vhd</ClosedNode>
+         <ClosedNode>/nand_gate_tb - behavior |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|nand-gate-tb.vhd</ClosedNode>
+         <ClosedNode>/not_gate_tb - behavior |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|not-gate-tb.vhd</ClosedNode>
+         <ClosedNode>/or_gate_tb - behavior |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|or-gate-tb.vhd</ClosedNode>
+         <ClosedNode>/xor_gate_tb - behavior |home|ise|DesignCourse_asif|full-adder|full-adder-8bit|xor-gate-tb.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>full_adder_8bit_tb - behavior (/home/ise/DesignCourse_asif/full-adder/full-adder-8bit/full-adder-8bit-tb.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001e1000000020000000000000000000000000200000064ffffffff000000810000000300000002000001e10000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>full_adder_8bit_tb - behavior (/home/ise/DesignCourse_asif/full-adder/full-adder-8bit/full-adder-8bit-tb.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000014c0000011d01000000060100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+</Project>

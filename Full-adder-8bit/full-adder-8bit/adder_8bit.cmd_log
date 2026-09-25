@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/DesignCourse_asif/full-adder/full-adder-8bit/adder_8bit.xst" -ofn "/home/ise/DesignCourse_asif/full-adder/full-adder-8bit/adder_8bit.syr" 
+xst -intstyle ise -ifn "/home/ise/DesignCourse_asif/full-adder/full-adder-8bit/adder_8bit.xst" -ofn "/home/ise/DesignCourse_asif/full-adder/full-adder-8bit/adder_8bit.syr" 

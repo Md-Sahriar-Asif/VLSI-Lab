@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="89" delta="new" >"/home/ise/DesignCourse_asif/full-adder/full-adder-8bit/xor-gate.vhd" Line 12: &lt;<arg fmt="%s" index="1">nand_gate</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="new" >"/home/ise/DesignCourse_asif/full-adder/full-adder-8bit/and-gate.vhd" Line 12: &lt;<arg fmt="%s" index="1">nand_gate</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="new" >"/home/ise/DesignCourse_asif/full-adder/full-adder-8bit/not-gate.vhd" Line 11: &lt;<arg fmt="%s" index="1">nand_gate</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="new" >"/home/ise/DesignCourse_asif/full-adder/full-adder-8bit/or-gate.vhd" Line 16: &lt;<arg fmt="%s" index="1">nand_gate</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+</messages>
+
