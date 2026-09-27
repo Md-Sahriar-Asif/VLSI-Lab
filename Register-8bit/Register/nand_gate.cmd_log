@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/DesignCourse_asif/Register/nand_gate.xst" -ofn "/home/ise/DesignCourse_asif/Register/nand_gate.syr" 

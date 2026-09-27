@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/DesignCourse_asif/Register/master_slave_ff_tb_isim_beh.exe" -prj "/home/ise/DesignCourse_asif/Register/master_slave_ff_tb_beh.prj" "work.master_slave_ff_tb" 

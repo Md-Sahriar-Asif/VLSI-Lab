@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Register" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/d_latch - Structural |home|ise|DesignCourse_asif|Register|d_latch.vhd</ClosedNode>
+         <ClosedNode>/master_slave_ff - Structural |home|ise|DesignCourse_asif|Register|master-slave-ff.vhd</ClosedNode>
+         <ClosedNode>/master_slave_ff - Structural |home|ise|DesignCourse_asif|Register|master-slave-ff.vhd/MASTER - d_latch - Structural</ClosedNode>
+         <ClosedNode>/master_slave_ff - Structural |home|ise|DesignCourse_asif|Register|master-slave-ff.vhd/MASTER - d_latch - Structural/U1 - not_gate - Structural</ClosedNode>
+         <ClosedNode>/master_slave_ff - Structural |home|ise|DesignCourse_asif|Register|master-slave-ff.vhd/MASTER - d_latch - Structural/U4 - sr_latch - Structural</ClosedNode>
+         <ClosedNode>/master_slave_ff - Structural |home|ise|DesignCourse_asif|Register|master-slave-ff.vhd/SLAVE - d_latch - Structural</ClosedNode>
+         <ClosedNode>/master_slave_ff - Structural |home|ise|DesignCourse_asif|Register|master-slave-ff.vhd/SLAVE - d_latch - Structural/U1 - not_gate - Structural</ClosedNode>
+         <ClosedNode>/master_slave_ff - Structural |home|ise|DesignCourse_asif|Register|master-slave-ff.vhd/SLAVE - d_latch - Structural/U4 - sr_latch - Structural</ClosedNode>
+         <ClosedNode>/register_1bit - Structural |home|ise|DesignCourse_asif|Register|register-1bit.vhd/FF - master_slave_ff - Structural</ClosedNode>
+         <ClosedNode>/register_8bit - Structural |home|ise|DesignCourse_asif|Register|register-8bit.vhd/REG0 - register_1bit - Structural</ClosedNode>
+         <ClosedNode>/register_8bit - Structural |home|ise|DesignCourse_asif|Register|register-8bit.vhd/REG0 - register_1bit - Structural/FF - master_slave_ff - Structural</ClosedNode>
+         <ClosedNode>/register_8bit - Structural |home|ise|DesignCourse_asif|Register|register-8bit.vhd/REG1 - register_1bit - Structural</ClosedNode>
+         <ClosedNode>/register_8bit - Structural |home|ise|DesignCourse_asif|Register|register-8bit.vhd/REG2 - register_1bit - Structural</ClosedNode>
+         <ClosedNode>/register_8bit - Structural |home|ise|DesignCourse_asif|Register|register-8bit.vhd/REG3 - register_1bit - Structural</ClosedNode>
+         <ClosedNode>/register_8bit - Structural |home|ise|DesignCourse_asif|Register|register-8bit.vhd/REG4 - register_1bit - Structural</ClosedNode>
+         <ClosedNode>/register_8bit - Structural |home|ise|DesignCourse_asif|Register|register-8bit.vhd/REG5 - register_1bit - Structural</ClosedNode>
+         <ClosedNode>/register_8bit - Structural |home|ise|DesignCourse_asif|Register|register-8bit.vhd/REG6 - register_1bit - Structural</ClosedNode>
+         <ClosedNode>/register_8bit - Structural |home|ise|DesignCourse_asif|Register|register-8bit.vhd/REG7 - register_1bit - Structural/FF - master_slave_ff - Structural/MASTER - d_latch - Structural</ClosedNode>
+         <ClosedNode>/register_8bit - Structural |home|ise|DesignCourse_asif|Register|register-8bit.vhd/REG7 - register_1bit - Structural/FF - master_slave_ff - Structural/SLAVE - d_latch - Structural</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>xc7a100t-3csg324</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001c8000000020000000000000000000000000200000064ffffffff000000810000000300000002000001c80000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>xc7a100t-3csg324</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000021f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000021f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000039f000000040101000100000000000000000000000064ffffffff0000008100000000000000040000008c00000001000000000000005d0000000100000000000000840000000100000000000002320000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>d_latch.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000128000000010001000100000000000000000000000064ffffffff000000810000000000000001000001280000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000021f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000021f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/d_latch_tb - behavior |home|ise|DesignCourse_asif|Register|d-latch-tb.vhd</ClosedNode>
+         <ClosedNode>/master_slave_ff_tb - behavior |home|ise|DesignCourse_asif|Register|master-slave-ff-tb.vhd</ClosedNode>
+         <ClosedNode>/nand_gate_tb - behavior |home|ise|DesignCourse_asif|Register|nand-gate-tb.vhd</ClosedNode>
+         <ClosedNode>/not_gate_tb - behavior |home|ise|DesignCourse_asif|Register|not-gate-tb.vhd</ClosedNode>
+         <ClosedNode>/register_1bit_tb - behavior |home|ise|DesignCourse_asif|Register|register-1bit-tb.vhd</ClosedNode>
+         <ClosedNode>/register_1bit_tb - behavior |home|ise|DesignCourse_asif|Register|register-1bit-tb.vhd/uut - register_1bit - Structural/FF - master_slave_ff - Structural</ClosedNode>
+         <ClosedNode>/register_8bit_tb - behavior |home|ise|DesignCourse_asif|Register|register-8bit-tb.vhd</ClosedNode>
+         <ClosedNode>/sr_latch_tb - behavior |home|ise|DesignCourse_asif|Register|sr-latc-tb.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>master_slave_ff_tb - behavior (/home/ise/DesignCourse_asif/Register/master-slave-ff-tb.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a5000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a50000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>master_slave_ff_tb - behavior (/home/ise/DesignCourse_asif/Register/master-slave-ff-tb.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001f2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001f20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001f2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001f20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000018d000000c201000000060100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+</Project>

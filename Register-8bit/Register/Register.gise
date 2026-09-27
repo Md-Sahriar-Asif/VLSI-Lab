@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Register.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="d_latch.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="d_latch.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="d_latch.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="d_latch.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="d_latch.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="d_latch.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="d_latch.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="d_latch.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="d_latch_summary.html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="d_latch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="d_latch_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="d_latch_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="master_slave_ff.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="master_slave_ff.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="master_slave_ff.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="master_slave_ff.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="master_slave_ff.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="master_slave_ff.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="master_slave_ff.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="master_slave_ff.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="master_slave_ff_summary.html"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="master_slave_ff_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="master_slave_ff_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="master_slave_ff_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="master_slave_ff_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="master_slave_ff_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="nand_gate.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="nand_gate.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="nand_gate.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="nand_gate.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="nand_gate.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="nand_gate.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="nand_gate.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="nand_gate.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="nand_gate_summary.html"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="nand_gate_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="nand_gate_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="not_gate_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="register_1bit.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="register_1bit.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="register_1bit.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="register_1bit.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="register_1bit.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="register_1bit.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="register_1bit.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="register_1bit.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="register_1bit_summary.html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="register_1bit_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="register_1bit_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="register_1bit_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="register_8bit.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="register_8bit.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="register_8bit.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="register_8bit.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="register_8bit.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="register_8bit.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="register_8bit.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="register_8bit.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="register_8bit_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="register_8bit_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="register_8bit_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="sr_latch.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="sr_latch.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="sr_latch.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="sr_latch.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sr_latch.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="sr_latch.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="sr_latch.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="sr_latch.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="sr_latch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sr_latch_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="sr_latch_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1790327399" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1790327399">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1790346022" xil_pn:in_ck="8888668315106352673" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1790346022">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="d-latch-tb.vhd"/>
+      <outfile xil_pn:name="d_latch.vhd"/>
+      <outfile xil_pn:name="master-slave-ff-tb.vhd"/>
+      <outfile xil_pn:name="master-slave-ff.vhd"/>
+      <outfile xil_pn:name="nand-gate-tb.vhd"/>
+      <outfile xil_pn:name="nand-gate.vhd"/>
+      <outfile xil_pn:name="not-gate-tb.vhd"/>
+      <outfile xil_pn:name="not-gate.vhd"/>
+      <outfile xil_pn:name="register-1bit-tb.vhd"/>
+      <outfile xil_pn:name="register-1bit.vhd"/>
+      <outfile xil_pn:name="register-8bit-tb.vhd"/>
+      <outfile xil_pn:name="register-8bit.vhd"/>
+      <outfile xil_pn:name="sr-latc-tb.vhd"/>
+      <outfile xil_pn:name="sr-latch.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1790431783" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3246727600163988506" xil_pn:start_ts="1790431783">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1790431783" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5532092784647302916" xil_pn:start_ts="1790431783">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1790345699" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-1158541264027185782" xil_pn:start_ts="1790345699">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1790346027" xil_pn:in_ck="8888668315106352673" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1790346027">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="d-latch-tb.vhd"/>
+      <outfile xil_pn:name="d_latch.vhd"/>
+      <outfile xil_pn:name="master-slave-ff-tb.vhd"/>
+      <outfile xil_pn:name="master-slave-ff.vhd"/>
+      <outfile xil_pn:name="nand-gate-tb.vhd"/>
+      <outfile xil_pn:name="nand-gate.vhd"/>
+      <outfile xil_pn:name="not-gate-tb.vhd"/>
+      <outfile xil_pn:name="not-gate.vhd"/>
+      <outfile xil_pn:name="register-1bit-tb.vhd"/>
+      <outfile xil_pn:name="register-1bit.vhd"/>
+      <outfile xil_pn:name="register-8bit-tb.vhd"/>
+      <outfile xil_pn:name="register-8bit.vhd"/>
+      <outfile xil_pn:name="sr-latc-tb.vhd"/>
+      <outfile xil_pn:name="sr-latch.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1790431787" xil_pn:in_ck="8888668315106352673" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6418350501073339598" xil_pn:start_ts="1790431783">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="master_slave_ff_tb_beh.prj"/>
+      <outfile xil_pn:name="master_slave_ff_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1790432153" xil_pn:in_ck="5396322964386762643" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1461427227990246325" xil_pn:start_ts="1790432153">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="master_slave_ff_tb_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1790327277" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1790327277">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1790345547" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5910972021270277150" xil_pn:start_ts="1790345547">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1790345547" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-1158541264027185782" xil_pn:start_ts="1790345547">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1790345547" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1790345547">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1790345547" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1128646945866741636" xil_pn:start_ts="1790345547">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1790345547" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1790345547">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1790345547" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-5739917381658250348" xil_pn:start_ts="1790345547">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1790345563" xil_pn:in_ck="1058000882368097507" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-8918914845638552249" xil_pn:start_ts="1790345547">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="d_latch.ngr"/>
+      <outfile xil_pn:name="register_8bit.lso"/>
+      <outfile xil_pn:name="register_8bit.ngc"/>
+      <outfile xil_pn:name="register_8bit.ngr"/>
+      <outfile xil_pn:name="register_8bit.prj"/>
+      <outfile xil_pn:name="register_8bit.stx"/>
+      <outfile xil_pn:name="register_8bit.syr"/>
+      <outfile xil_pn:name="register_8bit.xst"/>
+      <outfile xil_pn:name="register_8bit_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

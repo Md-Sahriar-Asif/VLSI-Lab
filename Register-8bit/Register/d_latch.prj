@@ -1,0 +1,4 @@
+vhdl work "nand-gate.vhd"
+vhdl work "sr-latch.vhd"
+vhdl work "not-gate.vhd"
+vhdl work "d_latch.vhd"

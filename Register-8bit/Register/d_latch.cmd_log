@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/DesignCourse_asif/Register/d_latch.xst" -ofn "/home/ise/DesignCourse_asif/Register/d_latch.syr" 

@@ -1,0 +1,8 @@
+vhdl isim_temp "nand-gate.vhd"
+vhdl isim_temp "sr-latch.vhd"
+vhdl isim_temp "not-gate.vhd"
+vhdl isim_temp "d_latch.vhd"
+vhdl isim_temp "master-slave-ff.vhd"
+vhdl isim_temp "register-1bit.vhd"
+vhdl isim_temp "register-8bit.vhd"
+vhdl isim_temp "register-8bit-tb.vhd"

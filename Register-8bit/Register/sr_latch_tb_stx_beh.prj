@@ -1,0 +1,3 @@
+vhdl isim_temp "nand-gate.vhd"
+vhdl isim_temp "sr-latch.vhd"
+vhdl isim_temp "sr-latc-tb.vhd"

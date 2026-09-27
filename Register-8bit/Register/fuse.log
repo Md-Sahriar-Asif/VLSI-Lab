@@ -1,0 +1,30 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/DesignCourse_asif/Register/master_slave_ff_tb_isim_beh.exe -prj /home/ise/DesignCourse_asif/Register/master_slave_ff_tb_beh.prj work.master_slave_ff_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/DesignCourse_asif/Register/nand-gate.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/Register/sr-latch.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/Register/not-gate.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/Register/d_latch.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/Register/master-slave-ff.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/Register/master-slave-ff-tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95404 KB
+Fuse CPU Usage: 1080 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity nand_gate [nand_gate_default]
+Compiling architecture structural of entity not_gate [not_gate_default]
+Compiling architecture structural of entity sr_latch [sr_latch_default]
+Compiling architecture structural of entity d_latch [d_latch_default]
+Compiling architecture structural of entity master_slave_ff [master_slave_ff_default]
+Compiling architecture behavior of entity master_slave_ff_tb
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 13 VHDL Units
+Built simulation executable /home/ise/DesignCourse_asif/Register/master_slave_ff_tb_isim_beh.exe
+Fuse Memory Usage: 396936 KB
+Fuse CPU Usage: 1160 ms
+GCC CPU Usage: 510 ms

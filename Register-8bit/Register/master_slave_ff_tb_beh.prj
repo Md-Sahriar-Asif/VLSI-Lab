@@ -1,0 +1,6 @@
+vhdl work "nand-gate.vhd"
+vhdl work "sr-latch.vhd"
+vhdl work "not-gate.vhd"
+vhdl work "d_latch.vhd"
+vhdl work "master-slave-ff.vhd"
+vhdl work "master-slave-ff-tb.vhd"

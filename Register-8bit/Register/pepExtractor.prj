@@ -1,0 +1,7 @@
+work	"d_latch.vhd"
+work	"master-slave-ff.vhd"
+work	"nand-gate.vhd"
+work	"not-gate.vhd"
+work	"register-1bit.vhd"
+work	"register-8bit.vhd"
+work	"sr-latch.vhd"
