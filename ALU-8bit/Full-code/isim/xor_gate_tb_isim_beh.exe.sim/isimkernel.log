@@ -1,0 +1,29 @@
+Command line:
+   xor_gate_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53987
+
+Wed Sep 23 14:33:59 2026
+
+
+ Elaboration Time: 0.06 sec
+
+ Current Memory Usage: 215.261 Meg
+
+ Total Signals          : 21
+ Total Nets             : 6
+ Total Signal Drivers   : 6
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 5
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 366
+Total Line Count : 17
+
+ Total Simulation Time: 0.07 sec
+
+ Current Memory Usage: 292.86 Meg
+
+Wed Sep 23 14:34:26 2026
+

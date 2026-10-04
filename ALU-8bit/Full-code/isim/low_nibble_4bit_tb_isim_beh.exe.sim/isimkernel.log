@@ -1,0 +1,29 @@
+Command line:
+   low_nibble_4bit_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50825
+
+Wed Sep 23 18:16:38 2026
+
+
+ Elaboration Time: 0.07 sec
+
+ Current Memory Usage: 216.097 Meg
+
+ Total Signals          : 387
+ Total Nets             : 71
+ Total Signal Drivers   : 65
+ Total Blocks           : 115
+ Total Primitive Blocks : 61
+ Total Processes        : 63
+ Total Traceable Variables  : 12
+ Total Scalar Nets and Variables : 435
+Total Line Count : 83
+
+ Total Simulation Time: 0.08 sec
+
+ Current Memory Usage: 293.695 Meg
+
+Wed Sep 23 18:24:28 2026
+

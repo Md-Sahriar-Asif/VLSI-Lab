@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/DesignCourse_asif/ALU/Full-code/sr_latch.xst" -ofn "/home/ise/DesignCourse_asif/ALU/Full-code/sr_latch.syr" 

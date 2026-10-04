@@ -1,0 +1,42 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/DesignCourse_asif/ALU/Full-code/subtractor_8bit_tb_isim_beh.exe -prj /home/ise/DesignCourse_asif/ALU/Full-code/subtractor_8bit_tb_beh.prj work.subtractor_8bit_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/nand-gate-circuit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/not-gate.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/xor-gate.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/and-gate.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/or-gate.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/half-adder-circuit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/full-adder-1b.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/low-nibble-4bit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/high-nibble-4bit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/full-adder-circuit-8bit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/subtractor-8bit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/subtractor-8bit-tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95760 KB
+Fuse CPU Usage: 1080 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture dataflow of entity nand_gate [nand_gate_default]
+Compiling architecture structural of entity xor_gate [xor_gate_default]
+Compiling architecture structural of entity not_gate [not_gate_default]
+Compiling architecture structural of entity and_gate [and_gate_default]
+Compiling architecture structural of entity half_adder [half_adder_default]
+Compiling architecture structural of entity or_gate [or_gate_default]
+Compiling architecture structural of entity full_adder [full_adder_default]
+Compiling architecture structural of entity low_nibble_4bit [low_nibble_4bit_default]
+Compiling architecture structural of entity high_nibble_4bit [high_nibble_4bit_default]
+Compiling architecture structural of entity adder_8bit [adder_8bit_default]
+Compiling architecture structural of entity subtractor_8bit [subtractor_8bit_default]
+Compiling architecture behavior of entity subtractor_8bit_tb
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 25 VHDL Units
+Built simulation executable /home/ise/DesignCourse_asif/ALU/Full-code/subtractor_8bit_tb_isim_beh.exe
+Fuse Memory Usage: 397236 KB
+Fuse CPU Usage: 1210 ms
+GCC CPU Usage: 630 ms
