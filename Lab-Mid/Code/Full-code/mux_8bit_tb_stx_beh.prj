@@ -1,0 +1,2 @@
+vhdl isim_temp "mux-8bit.vhd"
+vhdl isim_temp "mux-8bit-tb.vhd"

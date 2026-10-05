@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/DesignCourse_asif/ALU/Full-code/mux_4bit_tb_isim_beh.exe" -prj "/home/ise/DesignCourse_asif/ALU/Full-code/mux_4bit_tb_beh.prj" "work.mux_4bit_tb" 

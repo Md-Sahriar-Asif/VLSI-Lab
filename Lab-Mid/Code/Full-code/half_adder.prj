@@ -1,0 +1,4 @@
+vhdl work "not-gate.vhd"
+vhdl work "xor-gate.vhd"
+vhdl work "and-gate.vhd"
+vhdl work "half-adder-circuit.vhd"
