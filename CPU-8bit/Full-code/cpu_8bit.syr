@@ -1,0 +1,884 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Reading design: cpu_8bit.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "cpu_8bit.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "cpu_8bit"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : cpu_8bit
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/nand-gate-circuit.vhd" into library work
+Parsing entity <nand_gate>.
+Parsing architecture <Dataflow> of entity <nand_gate>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/not-gate.vhd" into library work
+Parsing entity <not_gate>.
+Parsing architecture <Structural> of entity <not_gate>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/xor-gate.vhd" into library work
+Parsing entity <xor_gate>.
+Parsing architecture <Structural> of entity <xor_gate>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/and-gate.vhd" into library work
+Parsing entity <and_gate>.
+Parsing architecture <Structural> of entity <and_gate>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/or-gate.vhd" into library work
+Parsing entity <or_gate>.
+Parsing architecture <Structural> of entity <or_gate>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/half-adder-circuit.vhd" into library work
+Parsing entity <half_adder>.
+Parsing architecture <Structural> of entity <half_adder>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/sr-latch.vhd" into library work
+Parsing entity <sr_latch>.
+Parsing architecture <Structural> of entity <sr_latch>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/full-adder-1b.vhd" into library work
+Parsing entity <full_adder>.
+Parsing architecture <Structural> of entity <full_adder>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/low-nibble-4bit.vhd" into library work
+Parsing entity <low_nibble_4bit>.
+Parsing architecture <Structural> of entity <low_nibble_4bit>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/high-nibble-4bit.vhd" into library work
+Parsing entity <high_nibble_4bit>.
+Parsing architecture <Structural> of entity <high_nibble_4bit>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/d-latch.vhd" into library work
+Parsing entity <d_latch>.
+Parsing architecture <Structural> of entity <d_latch>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/master-slave-ff.vhd" into library work
+Parsing entity <master_slave_ff>.
+Parsing architecture <Structural> of entity <master_slave_ff>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/full-adder-circuit-8bit.vhd" into library work
+Parsing entity <adder_8bit>.
+Parsing architecture <Structural> of entity <adder_8bit>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/subtractor-8bit.vhd" into library work
+Parsing entity <subtractor_8bit>.
+Parsing architecture <Structural> of entity <subtractor_8bit>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/register-1bit.vhd" into library work
+Parsing entity <register_1bit>.
+Parsing architecture <Structural> of entity <register_1bit>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/mux-8bit.vhd" into library work
+Parsing entity <mux_8bit>.
+Parsing architecture <Structural> of entity <mux_8bit>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/zero-flag.vhd" into library work
+Parsing entity <zero_flag>.
+Parsing architecture <Structural> of entity <zero_flag>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/rom-192bits.vhd" into library work
+Parsing entity <rom_192bits>.
+Parsing architecture <Structural> of entity <rom_192bits>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/registe-8bit.vhd" into library work
+Parsing entity <register_8bit>.
+Parsing architecture <Structural> of entity <register_8bit>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/pc-4bit.vhd" into library work
+Parsing entity <pc_4bit>.
+Parsing architecture <Structural> of entity <pc_4bit>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/control-unit.vhd" into library work
+Parsing entity <control_unit>.
+Parsing architecture <Structural> of entity <control_unit>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/alu-8bit.vhd" into library work
+Parsing entity <alu_8bit>.
+Parsing architecture <Structural> of entity <alu_8bit>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/cpu-8bit.vhd" into library work
+Parsing entity <cpu_8bit>.
+Parsing architecture <Structural> of entity <cpu_8bit>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <cpu_8bit> (architecture <Structural>) from library <work>.
+
+Elaborating entity <pc_4bit> (architecture <Structural>) from library <work>.
+
+Elaborating entity <rom_192bits> (architecture <Structural>) from library <work>.
+
+Elaborating entity <control_unit> (architecture <Structural>) from library <work>.
+
+Elaborating entity <alu_8bit> (architecture <Structural>) from library <work>.
+
+Elaborating entity <adder_8bit> (architecture <Structural>) from library <work>.
+
+Elaborating entity <low_nibble_4bit> (architecture <Structural>) from library <work>.
+
+Elaborating entity <full_adder> (architecture <Structural>) from library <work>.
+
+Elaborating entity <half_adder> (architecture <Structural>) from library <work>.
+
+Elaborating entity <xor_gate> (architecture <Structural>) from library <work>.
+
+Elaborating entity <nand_gate> (architecture <Dataflow>) from library <work>.
+
+Elaborating entity <and_gate> (architecture <Structural>) from library <work>.
+
+Elaborating entity <not_gate> (architecture <Structural>) from library <work>.
+
+Elaborating entity <or_gate> (architecture <Structural>) from library <work>.
+
+Elaborating entity <high_nibble_4bit> (architecture <Structural>) from library <work>.
+
+Elaborating entity <subtractor_8bit> (architecture <Structural>) from library <work>.
+
+Elaborating entity <mux_8bit> (architecture <Structural>) from library <work>.
+
+Elaborating entity <register_8bit> (architecture <Structural>) from library <work>.
+
+Elaborating entity <register_1bit> (architecture <Structural>) from library <work>.
+
+Elaborating entity <master_slave_ff> (architecture <Structural>) from library <work>.
+
+Elaborating entity <d_latch> (architecture <Structural>) from library <work>.
+
+Elaborating entity <sr_latch> (architecture <Structural>) from library <work>.
+
+Elaborating entity <zero_flag> (architecture <Structural>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <cpu_8bit>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/cpu-8bit.vhd".
+INFO:Xst:3210 - "/home/ise/DesignCourse_asif/ALU/Full-code/cpu-8bit.vhd" line 128: Output port <FLAG> of the instance <ALU_UNIT> is unconnected or connected to loadless signal.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <cpu_8bit> synthesized.
+
+Synthesizing Unit <pc_4bit>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/pc-4bit.vhd".
+    Found 4-bit register for signal <PC>.
+    Found 4-bit adder for signal <PC[3]_GND_5_o_add_0_OUT> created at line 1241.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 D-type flip-flop(s).
+Unit <pc_4bit> synthesized.
+
+Synthesizing Unit <rom_192bits>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/rom-192bits.vhd".
+    Found 16x12-bit Read Only RAM for signal <INSTR>
+    Summary:
+	inferred   1 RAM(s).
+Unit <rom_192bits> synthesized.
+
+Synthesizing Unit <control_unit>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/control-unit.vhd".
+    Found 16x5-bit Read Only RAM for signal <_n0021>
+    Summary:
+	inferred   1 RAM(s).
+Unit <control_unit> synthesized.
+
+Synthesizing Unit <alu_8bit>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/alu-8bit.vhd".
+INFO:Xst:3210 - "/home/ise/DesignCourse_asif/ALU/Full-code/alu-8bit.vhd" line 61: Output port <COUT> of the instance <ADDER> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ise/DesignCourse_asif/ALU/Full-code/alu-8bit.vhd" line 71: Output port <BORROW> of the instance <SUBTRACTOR> is unconnected or connected to loadless signal.
+    Summary:
+Unit <alu_8bit> synthesized.
+
+Synthesizing Unit <adder_8bit>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/full-adder-circuit-8bit.vhd".
+    Summary:
+	no macro.
+Unit <adder_8bit> synthesized.
+
+Synthesizing Unit <low_nibble_4bit>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/low-nibble-4bit.vhd".
+    Summary:
+	no macro.
+Unit <low_nibble_4bit> synthesized.
+
+Synthesizing Unit <full_adder>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/full-adder-1b.vhd".
+    Summary:
+	no macro.
+Unit <full_adder> synthesized.
+
+Synthesizing Unit <half_adder>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/half-adder-circuit.vhd".
+    Summary:
+	no macro.
+Unit <half_adder> synthesized.
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/xor-gate.vhd".
+    Summary:
+	no macro.
+Unit <xor_gate> synthesized.
+
+Synthesizing Unit <nand_gate>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/nand-gate-circuit.vhd".
+    Summary:
+	no macro.
+Unit <nand_gate> synthesized.
+
+Synthesizing Unit <and_gate>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/and-gate.vhd".
+    Summary:
+	no macro.
+Unit <and_gate> synthesized.
+
+Synthesizing Unit <not_gate>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/not-gate.vhd".
+    Summary:
+	no macro.
+Unit <not_gate> synthesized.
+
+Synthesizing Unit <or_gate>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/or-gate.vhd".
+    Summary:
+	no macro.
+Unit <or_gate> synthesized.
+
+Synthesizing Unit <high_nibble_4bit>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/high-nibble-4bit.vhd".
+    Summary:
+	no macro.
+Unit <high_nibble_4bit> synthesized.
+
+Synthesizing Unit <subtractor_8bit>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/subtractor-8bit.vhd".
+    Summary:
+	no macro.
+Unit <subtractor_8bit> synthesized.
+
+Synthesizing Unit <mux_8bit>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/mux-8bit.vhd".
+    Summary:
+	no macro.
+Unit <mux_8bit> synthesized.
+
+Synthesizing Unit <register_8bit>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/registe-8bit.vhd".
+    Summary:
+	no macro.
+Unit <register_8bit> synthesized.
+
+Synthesizing Unit <register_1bit>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/register-1bit.vhd".
+INFO:Xst:3210 - "/home/ise/DesignCourse_asif/ALU/Full-code/register-1bit.vhd" line 41: Output port <Q_n> of the instance <FF> is unconnected or connected to loadless signal.
+    Summary:
+	inferred   2 Multiplexer(s).
+Unit <register_1bit> synthesized.
+
+Synthesizing Unit <master_slave_ff>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/master-slave-ff.vhd".
+INFO:Xst:3210 - "/home/ise/DesignCourse_asif/ALU/Full-code/master-slave-ff.vhd" line 35: Output port <Q_n> of the instance <MASTER> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <master_slave_ff> synthesized.
+
+Synthesizing Unit <d_latch>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/d-latch.vhd".
+    Summary:
+	no macro.
+Unit <d_latch> synthesized.
+
+Synthesizing Unit <sr_latch>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/sr-latch.vhd".
+    Summary:
+	no macro.
+Unit <sr_latch> synthesized.
+
+Synthesizing Unit <zero_flag>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/zero-flag.vhd".
+    Found 1-bit register for signal <Z_REG>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <zero_flag> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x12-bit single-port Read Only RAM                   : 1
+ 16x5-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 1
+ 4-bit adder                                           : 1
+# Registers                                            : 2
+ 1-bit register                                        : 1
+ 4-bit register                                        : 1
+# Multiplexers                                         : 17
+ 1-bit 2-to-1 multiplexer                              : 16
+ 8-bit 2-to-1 multiplexer                              : 1
+# Xors                                                 : 1
+ 8-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <U2> is unconnected in block <U1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <U2> is unconnected in block <U2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <U3> is unconnected in block <GEN_ADD[3].FA>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <U2> is unconnected in block <U1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <U2> is unconnected in block <U2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <U3> is unconnected in block <GEN_ADD[3].FA>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <U1> is unconnected in block <U1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <U3> is unconnected in block <U1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <U2> is unconnected in block <U2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <U2> is unconnected in block <U3>.
+   It will be removed from the design.
+
+Synthesizing (advanced) Unit <control_unit>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0021> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 5-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <OPCODE>        |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <control_unit> synthesized (advanced).
+
+Synthesizing (advanced) Unit <pc_4bit>.
+The following registers are absorbed into counter <PC>: 1 register on signal <PC>.
+Unit <pc_4bit> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rom_192bits>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_INSTR> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 12-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <PC_ADDR>       |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <INSTR>         |          |
+    -----------------------------------------------------------------------
+Unit <rom_192bits> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x12-bit single-port distributed Read Only RAM       : 1
+ 16x5-bit single-port distributed Read Only RAM        : 1
+# Counters                                             : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+# Multiplexers                                         : 17
+ 1-bit 2-to-1 multiplexer                              : 16
+ 8-bit 2-to-1 multiplexer                              : 1
+# Xors                                                 : 1
+ 8-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2170 - Unit register_8bit : the following signal(s) form a combinatorial loop: REG5/FF/SLAVE/U4/U1/n0000.
+WARNING:Xst:2170 - Unit register_8bit : the following signal(s) form a combinatorial loop: REG1/FF/SLAVE/U4/U1/n0000.
+WARNING:Xst:2170 - Unit register_8bit : the following signal(s) form a combinatorial loop: REG3/FF/MASTER/U4/U1/n0000.
+WARNING:Xst:2170 - Unit register_8bit : the following signal(s) form a combinatorial loop: REG6/FF/SLAVE/U4/U1/n0000.
+WARNING:Xst:2170 - Unit register_8bit : the following signal(s) form a combinatorial loop: REG4/FF/SLAVE/U4/U1/n0000.
+WARNING:Xst:2170 - Unit register_8bit : the following signal(s) form a combinatorial loop: REG0/FF/MASTER/U4/U1/n0000.
+WARNING:Xst:2170 - Unit register_8bit : the following signal(s) form a combinatorial loop: REG2/FF/MASTER/U4/U1/n0000.
+WARNING:Xst:2170 - Unit register_8bit : the following signal(s) form a combinatorial loop: REG3/FF/SLAVE/U4/U1/n0000.
+WARNING:Xst:2170 - Unit register_8bit : the following signal(s) form a combinatorial loop: REG7/FF/MASTER/U4/U1/n0000.
+WARNING:Xst:2170 - Unit register_8bit : the following signal(s) form a combinatorial loop: REG0/FF/SLAVE/U4/U1/n0000.
+WARNING:Xst:2170 - Unit register_8bit : the following signal(s) form a combinatorial loop: REG5/FF/MASTER/U4/U1/n0000.
+WARNING:Xst:2170 - Unit register_8bit : the following signal(s) form a combinatorial loop: REG1/FF/MASTER/U4/U1/n0000.
+WARNING:Xst:2170 - Unit register_8bit : the following signal(s) form a combinatorial loop: REG2/FF/SLAVE/U4/U1/n0000.
+WARNING:Xst:2170 - Unit register_8bit : the following signal(s) form a combinatorial loop: REG6/FF/MASTER/U4/U1/n0000.
+WARNING:Xst:2170 - Unit register_8bit : the following signal(s) form a combinatorial loop: REG4/FF/MASTER/U4/U1/n0000.
+WARNING:Xst:2170 - Unit register_8bit : the following signal(s) form a combinatorial loop: REG7/FF/SLAVE/U4/U1/n0000.
+
+Optimizing unit <cpu_8bit> ...
+
+Optimizing unit <register_8bit> ...
+
+Optimizing unit <alu_8bit> ...
+
+Optimizing unit <subtractor_8bit> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block cpu_8bit, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 5
+ Flip-Flops                                            : 5
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : cpu_8bit.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 75
+#      GND                         : 1
+#      INV                         : 9
+#      LUT2                        : 9
+#      LUT3                        : 10
+#      LUT4                        : 18
+#      LUT5                        : 7
+#      LUT6                        : 21
+# FlipFlops/Latches                : 5
+#      FDR                         : 4
+#      FDSE                        : 1
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 15
+#      IBUF                        : 2
+#      OBUF                        : 13
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               5  out of  126800     0%  
+ Number of Slice LUTs:                   74  out of  63400     0%  
+    Number used as Logic:                74  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     74
+   Number with an unused Flip Flop:      69  out of     74    93%  
+   Number with an unused LUT:             0  out of     74     0%  
+   Number of fully used LUT-FF pairs:     5  out of     74     6%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          15
+ Number of bonded IOBs:                  15  out of    210     7%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | IBUF+BUFG              | 5     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 20.039ns (Maximum Frequency: 49.903MHz)
+   Minimum input arrival time before clock: 18.032ns
+   Maximum output required time after clock: 21.850ns
+   Maximum combinational path delay: 19.844ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 20.039ns (frequency: 49.903MHz)
+  Total number of paths / destination ports: 133160 / 6
+-------------------------------------------------------------------------
+Delay:               20.039ns (Levels of Logic = 39)
+  Source:            PC_UNIT/PC_3 (FF)
+  Destination:       ZERO_REG/Z_REG (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: PC_UNIT/PC_3 to ZERO_REG/Z_REG
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             14   0.361   0.616  PC_UNIT/PC_3 (PC_UNIT/PC_3)
+     LUT4:I0->O           12   0.097   0.562  CONTROL_UNIT_INST/Mram__n002131 (ALU_OPCODE<1>)
+     LUT4:I1->O            2   0.097   0.383  ALU_UNIT/MUX/Y<0>1 (ALU_RESULT<0>)
+     LUT2:I0->O            1   0.097   0.556  Mmux_ACC_INPUT11 (ACC_INPUT<0>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG0/FF/MASTER/U4/U1/n00001 (ACC_REG/REG0/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O           10   0.097   0.598  ACC_REG/REG0/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG0/FF/SLAVE/U4/U1/n0000)
+     LUT6:I2->O            2   0.097   0.384  ALU_UNIT/MUX/Y<1>1 (ALU_RESULT<1>)
+     LUT2:I0->O            1   0.097   0.556  Mmux_ACC_INPUT21 (ACC_INPUT<1>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG1/FF/MASTER/U4/U1/n00001 (ACC_REG/REG1/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            9   0.097   0.332  ACC_REG/REG1/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG1/FF/SLAVE/U4/U1/n0000)
+     LUT4:I3->O            3   0.097   0.389  ALU_UNIT/MUX/Y<2>21 (ALU_UNIT/MUX/Y<2>2)
+     LUT4:I2->O            1   0.097   0.683  ALU_UNIT/MUX/Y<2>5 (ALU_UNIT/MUX/Y<2>5)
+     LUT6:I1->O            2   0.097   0.300  ALU_UNIT/MUX/Y<2>7 (ALU_RESULT<2>)
+     LUT2:I1->O            1   0.097   0.556  Mmux_ACC_INPUT31 (ACC_INPUT<2>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG2/FF/MASTER/U4/U1/n00001 (ACC_REG/REG2/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O           10   0.097   0.337  ACC_REG/REG2/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG2/FF/SLAVE/U4/U1/n0000)
+     LUT6:I5->O            2   0.097   0.561  ALU_UNIT/SUBTRACTOR/SUB/LOW_NIBBLE/GEN_ADD[3].FA/U2/U1/U4/Y11 (ALU_UNIT/SUBTRACTOR/SUB/LOW_NIBBLE/GEN_ADD[3].FA/U2/U1/U4/Y1)
+     LUT6:I2->O            2   0.097   0.300  ALU_UNIT/MUX/Y<3> (ALU_RESULT<3>)
+     LUT2:I1->O            1   0.097   0.556  Mmux_ACC_INPUT41 (ACC_INPUT<3>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG3/FF/MASTER/U4/U1/n00001 (ACC_REG/REG3/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            6   0.097   0.318  ACC_REG/REG3/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG3/FF/SLAVE/U4/U1/n0000)
+     LUT6:I5->O            3   0.097   0.389  ALU_UNIT/SUBTRACTOR/SUB/LOW_NIBBLE/GEN_ADD[3].FA/U3/U3/n00001 (ALU_UNIT/SUBTRACTOR/SUB/LOW_NIBBLE/GEN_ADD[3].FA/U3/U3/n0000)
+     LUT6:I4->O            2   0.097   0.299  ALU_UNIT/MUX/Y<4>1 (ALU_RESULT<4>)
+     LUT2:I1->O            1   0.097   0.556  Mmux_ACC_INPUT51 (ACC_INPUT<4>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG4/FF/MASTER/U4/U1/n00001 (ACC_REG/REG4/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            9   0.097   0.332  ACC_REG/REG4/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG4/FF/SLAVE/U4/U1/n0000)
+     LUT4:I3->O            2   0.097   0.299  ALU_UNIT/MUX/Y<5>21 (ALU_UNIT/MUX/Y<5>2)
+     LUT5:I4->O            1   0.097   0.511  ALU_UNIT/MUX/Y<5>2 (ALU_UNIT/MUX/Y<5>1)
+     LUT4:I1->O            2   0.097   0.299  ALU_UNIT/MUX/Y<5>4 (ALU_RESULT<5>)
+     LUT2:I1->O            1   0.097   0.556  Mmux_ACC_INPUT61 (ACC_INPUT<5>)
+     LUT6:I2->O            2   0.097   0.300  ACC_REG/REG5/FF/MASTER/U4/U1/n00001 (ACC_REG/REG5/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            8   0.097   0.328  ACC_REG/REG5/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG5/FF/SLAVE/U4/U1/n0000)
+     LUT5:I4->O            2   0.097   0.383  ALU_UNIT/SUBTRACTOR/SUB/HIGH_NIBBLE/GEN_ADD[2].FA/U2/U1/U1/n000021 (ALU_UNIT/SUBTRACTOR/SUB/HIGH_NIBBLE/GEN_ADD[2].FA/U2/U1/U1/n00002)
+     LUT6:I4->O            2   0.097   0.384  ALU_UNIT/MUX/Y<6>2 (ALU_RESULT<6>)
+     LUT2:I0->O            1   0.097   0.556  Mmux_ACC_INPUT71 (ACC_INPUT<6>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG6/FF/MASTER/U4/U1/n00001 (ACC_REG/REG6/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            5   0.097   0.314  ACC_REG/REG6/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG6/FF/SLAVE/U4/U1/n0000)
+     LUT5:I4->O            1   0.097   0.295  ALU_UNIT/MUX/Y<7>_SW0 (N4)
+     LUT5:I4->O            2   0.097   0.299  ALU_UNIT/MUX/Y<7> (ALU_RESULT<7>)
+     LUT6:I5->O            1   0.097   0.000  ZERO_INPUT<7> (ZERO_INPUT)
+     FDSE:D                    0.008          ZERO_REG/Z_REG
+    ----------------------------------------
+    Total                     20.039ns (4.152ns logic, 15.887ns route)
+                                       (20.7% logic, 79.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 15551 / 6
+-------------------------------------------------------------------------
+Offset:              18.032ns (Levels of Logic = 37)
+  Source:            CLK (PAD)
+  Destination:       ZERO_REG/Z_REG (FF)
+  Destination Clock: CLK rising
+
+  Data Path: CLK to ZERO_REG/Z_REG
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   0.001   0.762  CLK_IBUF (CLK_IBUF)
+     LUT6:I0->O            2   0.097   0.299  ACC_REG/REG0/FF/MASTER/U4/U1/n00001 (ACC_REG/REG0/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O           10   0.097   0.598  ACC_REG/REG0/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG0/FF/SLAVE/U4/U1/n0000)
+     LUT6:I2->O            2   0.097   0.384  ALU_UNIT/MUX/Y<1>1 (ALU_RESULT<1>)
+     LUT2:I0->O            1   0.097   0.556  Mmux_ACC_INPUT21 (ACC_INPUT<1>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG1/FF/MASTER/U4/U1/n00001 (ACC_REG/REG1/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            9   0.097   0.332  ACC_REG/REG1/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG1/FF/SLAVE/U4/U1/n0000)
+     LUT4:I3->O            3   0.097   0.389  ALU_UNIT/MUX/Y<2>21 (ALU_UNIT/MUX/Y<2>2)
+     LUT4:I2->O            1   0.097   0.683  ALU_UNIT/MUX/Y<2>5 (ALU_UNIT/MUX/Y<2>5)
+     LUT6:I1->O            2   0.097   0.300  ALU_UNIT/MUX/Y<2>7 (ALU_RESULT<2>)
+     LUT2:I1->O            1   0.097   0.556  Mmux_ACC_INPUT31 (ACC_INPUT<2>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG2/FF/MASTER/U4/U1/n00001 (ACC_REG/REG2/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O           10   0.097   0.337  ACC_REG/REG2/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG2/FF/SLAVE/U4/U1/n0000)
+     LUT6:I5->O            2   0.097   0.561  ALU_UNIT/SUBTRACTOR/SUB/LOW_NIBBLE/GEN_ADD[3].FA/U2/U1/U4/Y11 (ALU_UNIT/SUBTRACTOR/SUB/LOW_NIBBLE/GEN_ADD[3].FA/U2/U1/U4/Y1)
+     LUT6:I2->O            2   0.097   0.300  ALU_UNIT/MUX/Y<3> (ALU_RESULT<3>)
+     LUT2:I1->O            1   0.097   0.556  Mmux_ACC_INPUT41 (ACC_INPUT<3>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG3/FF/MASTER/U4/U1/n00001 (ACC_REG/REG3/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            6   0.097   0.318  ACC_REG/REG3/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG3/FF/SLAVE/U4/U1/n0000)
+     LUT6:I5->O            3   0.097   0.389  ALU_UNIT/SUBTRACTOR/SUB/LOW_NIBBLE/GEN_ADD[3].FA/U3/U3/n00001 (ALU_UNIT/SUBTRACTOR/SUB/LOW_NIBBLE/GEN_ADD[3].FA/U3/U3/n0000)
+     LUT6:I4->O            2   0.097   0.299  ALU_UNIT/MUX/Y<4>1 (ALU_RESULT<4>)
+     LUT2:I1->O            1   0.097   0.556  Mmux_ACC_INPUT51 (ACC_INPUT<4>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG4/FF/MASTER/U4/U1/n00001 (ACC_REG/REG4/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            9   0.097   0.332  ACC_REG/REG4/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG4/FF/SLAVE/U4/U1/n0000)
+     LUT4:I3->O            2   0.097   0.299  ALU_UNIT/MUX/Y<5>21 (ALU_UNIT/MUX/Y<5>2)
+     LUT5:I4->O            1   0.097   0.511  ALU_UNIT/MUX/Y<5>2 (ALU_UNIT/MUX/Y<5>1)
+     LUT4:I1->O            2   0.097   0.299  ALU_UNIT/MUX/Y<5>4 (ALU_RESULT<5>)
+     LUT2:I1->O            1   0.097   0.556  Mmux_ACC_INPUT61 (ACC_INPUT<5>)
+     LUT6:I2->O            2   0.097   0.300  ACC_REG/REG5/FF/MASTER/U4/U1/n00001 (ACC_REG/REG5/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            8   0.097   0.328  ACC_REG/REG5/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG5/FF/SLAVE/U4/U1/n0000)
+     LUT5:I4->O            2   0.097   0.383  ALU_UNIT/SUBTRACTOR/SUB/HIGH_NIBBLE/GEN_ADD[2].FA/U2/U1/U1/n000021 (ALU_UNIT/SUBTRACTOR/SUB/HIGH_NIBBLE/GEN_ADD[2].FA/U2/U1/U1/n00002)
+     LUT6:I4->O            2   0.097   0.384  ALU_UNIT/MUX/Y<6>2 (ALU_RESULT<6>)
+     LUT2:I0->O            1   0.097   0.556  Mmux_ACC_INPUT71 (ACC_INPUT<6>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG6/FF/MASTER/U4/U1/n00001 (ACC_REG/REG6/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            5   0.097   0.314  ACC_REG/REG6/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG6/FF/SLAVE/U4/U1/n0000)
+     LUT5:I4->O            1   0.097   0.295  ALU_UNIT/MUX/Y<7>_SW0 (N4)
+     LUT5:I4->O            2   0.097   0.299  ALU_UNIT/MUX/Y<7> (ALU_RESULT<7>)
+     LUT6:I5->O            1   0.097   0.000  ZERO_INPUT<7> (ZERO_INPUT)
+     FDSE:D                    0.008          ZERO_REG/Z_REG
+    ----------------------------------------
+    Total                     18.032ns (3.501ns logic, 14.531ns route)
+                                       (19.4% logic, 80.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 133211 / 13
+-------------------------------------------------------------------------
+Offset:              21.850ns (Levels of Logic = 43)
+  Source:            PC_UNIT/PC_3 (FF)
+  Destination:       Q<7> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: PC_UNIT/PC_3 to Q<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             14   0.361   0.616  PC_UNIT/PC_3 (PC_UNIT/PC_3)
+     LUT4:I0->O           12   0.097   0.562  CONTROL_UNIT_INST/Mram__n002131 (ALU_OPCODE<1>)
+     LUT4:I1->O            2   0.097   0.383  ALU_UNIT/MUX/Y<0>1 (ALU_RESULT<0>)
+     LUT2:I0->O            1   0.097   0.556  Mmux_ACC_INPUT11 (ACC_INPUT<0>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG0/FF/MASTER/U4/U1/n00001 (ACC_REG/REG0/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O           10   0.097   0.598  ACC_REG/REG0/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG0/FF/SLAVE/U4/U1/n0000)
+     LUT6:I2->O            2   0.097   0.383  ALU_UNIT/MUX/Y<1>1 (ALU_RESULT<1>)
+     LUT2:I0->O            1   0.097   0.556  Mmux_ACC_INPUT21 (ACC_INPUT<1>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG1/FF/MASTER/U4/U1/n00001 (ACC_REG/REG1/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            9   0.097   0.332  ACC_REG/REG1/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG1/FF/SLAVE/U4/U1/n0000)
+     LUT4:I3->O            3   0.097   0.389  ALU_UNIT/MUX/Y<2>21 (ALU_UNIT/MUX/Y<2>2)
+     LUT4:I2->O            1   0.097   0.683  ALU_UNIT/MUX/Y<2>5 (ALU_UNIT/MUX/Y<2>5)
+     LUT6:I1->O            2   0.097   0.300  ALU_UNIT/MUX/Y<2>7 (ALU_RESULT<2>)
+     LUT2:I1->O            1   0.097   0.556  Mmux_ACC_INPUT31 (ACC_INPUT<2>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG2/FF/MASTER/U4/U1/n00001 (ACC_REG/REG2/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O           10   0.097   0.337  ACC_REG/REG2/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG2/FF/SLAVE/U4/U1/n0000)
+     LUT6:I5->O            2   0.097   0.561  ALU_UNIT/SUBTRACTOR/SUB/LOW_NIBBLE/GEN_ADD[3].FA/U2/U1/U4/Y11 (ALU_UNIT/SUBTRACTOR/SUB/LOW_NIBBLE/GEN_ADD[3].FA/U2/U1/U4/Y1)
+     LUT6:I2->O            2   0.097   0.300  ALU_UNIT/MUX/Y<3> (ALU_RESULT<3>)
+     LUT2:I1->O            1   0.097   0.556  Mmux_ACC_INPUT41 (ACC_INPUT<3>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG3/FF/MASTER/U4/U1/n00001 (ACC_REG/REG3/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            6   0.097   0.318  ACC_REG/REG3/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG3/FF/SLAVE/U4/U1/n0000)
+     LUT6:I5->O            3   0.097   0.389  ALU_UNIT/SUBTRACTOR/SUB/LOW_NIBBLE/GEN_ADD[3].FA/U3/U3/n00001 (ALU_UNIT/SUBTRACTOR/SUB/LOW_NIBBLE/GEN_ADD[3].FA/U3/U3/n0000)
+     LUT6:I4->O            2   0.097   0.300  ALU_UNIT/MUX/Y<4>1 (ALU_RESULT<4>)
+     LUT2:I1->O            1   0.097   0.556  Mmux_ACC_INPUT51 (ACC_INPUT<4>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG4/FF/MASTER/U4/U1/n00001 (ACC_REG/REG4/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            9   0.097   0.332  ACC_REG/REG4/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG4/FF/SLAVE/U4/U1/n0000)
+     LUT4:I3->O            2   0.097   0.299  ALU_UNIT/MUX/Y<5>21 (ALU_UNIT/MUX/Y<5>2)
+     LUT5:I4->O            1   0.097   0.511  ALU_UNIT/MUX/Y<5>2 (ALU_UNIT/MUX/Y<5>1)
+     LUT4:I1->O            2   0.097   0.299  ALU_UNIT/MUX/Y<5>4 (ALU_RESULT<5>)
+     LUT2:I1->O            1   0.097   0.556  Mmux_ACC_INPUT61 (ACC_INPUT<5>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG5/FF/MASTER/U4/U1/n00001 (ACC_REG/REG5/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            8   0.097   0.327  ACC_REG/REG5/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG5/FF/SLAVE/U4/U1/n0000)
+     LUT5:I4->O            2   0.097   0.384  ALU_UNIT/SUBTRACTOR/SUB/HIGH_NIBBLE/GEN_ADD[2].FA/U2/U1/U1/n000021 (ALU_UNIT/SUBTRACTOR/SUB/HIGH_NIBBLE/GEN_ADD[2].FA/U2/U1/U1/n00002)
+     LUT6:I4->O            2   0.097   0.384  ALU_UNIT/MUX/Y<6>2 (ALU_RESULT<6>)
+     LUT2:I0->O            1   0.097   0.556  Mmux_ACC_INPUT71 (ACC_INPUT<6>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG6/FF/MASTER/U4/U1/n00001 (ACC_REG/REG6/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            5   0.097   0.314  ACC_REG/REG6/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG6/FF/SLAVE/U4/U1/n0000)
+     LUT5:I4->O            1   0.097   0.295  ALU_UNIT/MUX/Y<7>_SW0 (N4)
+     LUT5:I4->O            2   0.097   0.383  ALU_UNIT/MUX/Y<7> (ALU_RESULT<7>)
+     LUT2:I0->O            1   0.097   0.556  Mmux_ACC_INPUT81 (ACC_INPUT<7>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG7/FF/MASTER/U4/U1/n00001 (ACC_REG/REG7/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            4   0.097   0.293  ACC_REG/REG7/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG7/FF/SLAVE/U4/U1/n0000)
+     INV:I->O              1   0.113   0.279  ACC_REG/REG7/FF/SLAVE/U4/U1/Y1_INV_0 (Q_7_OBUF)
+     OBUF:I->O                 0.000          Q_7_OBUF (Q<7>)
+    ----------------------------------------
+    Total                     21.850ns (4.451ns logic, 17.399ns route)
+                                       (20.4% logic, 79.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 15570 / 8
+-------------------------------------------------------------------------
+Delay:               19.844ns (Levels of Logic = 41)
+  Source:            CLK (PAD)
+  Destination:       Q<7> (PAD)
+
+  Data Path: CLK to Q<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   0.001   0.762  CLK_IBUF (CLK_IBUF)
+     LUT6:I0->O            2   0.097   0.299  ACC_REG/REG0/FF/MASTER/U4/U1/n00001 (ACC_REG/REG0/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O           10   0.097   0.598  ACC_REG/REG0/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG0/FF/SLAVE/U4/U1/n0000)
+     LUT6:I2->O            2   0.097   0.383  ALU_UNIT/MUX/Y<1>1 (ALU_RESULT<1>)
+     LUT2:I0->O            1   0.097   0.556  Mmux_ACC_INPUT21 (ACC_INPUT<1>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG1/FF/MASTER/U4/U1/n00001 (ACC_REG/REG1/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            9   0.097   0.332  ACC_REG/REG1/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG1/FF/SLAVE/U4/U1/n0000)
+     LUT4:I3->O            3   0.097   0.389  ALU_UNIT/MUX/Y<2>21 (ALU_UNIT/MUX/Y<2>2)
+     LUT4:I2->O            1   0.097   0.683  ALU_UNIT/MUX/Y<2>5 (ALU_UNIT/MUX/Y<2>5)
+     LUT6:I1->O            2   0.097   0.300  ALU_UNIT/MUX/Y<2>7 (ALU_RESULT<2>)
+     LUT2:I1->O            1   0.097   0.556  Mmux_ACC_INPUT31 (ACC_INPUT<2>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG2/FF/MASTER/U4/U1/n00001 (ACC_REG/REG2/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O           10   0.097   0.337  ACC_REG/REG2/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG2/FF/SLAVE/U4/U1/n0000)
+     LUT6:I5->O            2   0.097   0.561  ALU_UNIT/SUBTRACTOR/SUB/LOW_NIBBLE/GEN_ADD[3].FA/U2/U1/U4/Y11 (ALU_UNIT/SUBTRACTOR/SUB/LOW_NIBBLE/GEN_ADD[3].FA/U2/U1/U4/Y1)
+     LUT6:I2->O            2   0.097   0.300  ALU_UNIT/MUX/Y<3> (ALU_RESULT<3>)
+     LUT2:I1->O            1   0.097   0.556  Mmux_ACC_INPUT41 (ACC_INPUT<3>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG3/FF/MASTER/U4/U1/n00001 (ACC_REG/REG3/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            6   0.097   0.318  ACC_REG/REG3/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG3/FF/SLAVE/U4/U1/n0000)
+     LUT6:I5->O            3   0.097   0.389  ALU_UNIT/SUBTRACTOR/SUB/LOW_NIBBLE/GEN_ADD[3].FA/U3/U3/n00001 (ALU_UNIT/SUBTRACTOR/SUB/LOW_NIBBLE/GEN_ADD[3].FA/U3/U3/n0000)
+     LUT6:I4->O            2   0.097   0.300  ALU_UNIT/MUX/Y<4>1 (ALU_RESULT<4>)
+     LUT2:I1->O            1   0.097   0.556  Mmux_ACC_INPUT51 (ACC_INPUT<4>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG4/FF/MASTER/U4/U1/n00001 (ACC_REG/REG4/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            9   0.097   0.332  ACC_REG/REG4/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG4/FF/SLAVE/U4/U1/n0000)
+     LUT4:I3->O            2   0.097   0.299  ALU_UNIT/MUX/Y<5>21 (ALU_UNIT/MUX/Y<5>2)
+     LUT5:I4->O            1   0.097   0.511  ALU_UNIT/MUX/Y<5>2 (ALU_UNIT/MUX/Y<5>1)
+     LUT4:I1->O            2   0.097   0.299  ALU_UNIT/MUX/Y<5>4 (ALU_RESULT<5>)
+     LUT2:I1->O            1   0.097   0.556  Mmux_ACC_INPUT61 (ACC_INPUT<5>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG5/FF/MASTER/U4/U1/n00001 (ACC_REG/REG5/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            8   0.097   0.327  ACC_REG/REG5/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG5/FF/SLAVE/U4/U1/n0000)
+     LUT5:I4->O            2   0.097   0.384  ALU_UNIT/SUBTRACTOR/SUB/HIGH_NIBBLE/GEN_ADD[2].FA/U2/U1/U1/n000021 (ALU_UNIT/SUBTRACTOR/SUB/HIGH_NIBBLE/GEN_ADD[2].FA/U2/U1/U1/n00002)
+     LUT6:I4->O            2   0.097   0.384  ALU_UNIT/MUX/Y<6>2 (ALU_RESULT<6>)
+     LUT2:I0->O            1   0.097   0.556  Mmux_ACC_INPUT71 (ACC_INPUT<6>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG6/FF/MASTER/U4/U1/n00001 (ACC_REG/REG6/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            5   0.097   0.314  ACC_REG/REG6/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG6/FF/SLAVE/U4/U1/n0000)
+     LUT5:I4->O            1   0.097   0.295  ALU_UNIT/MUX/Y<7>_SW0 (N4)
+     LUT5:I4->O            2   0.097   0.383  ALU_UNIT/MUX/Y<7> (ALU_RESULT<7>)
+     LUT2:I0->O            1   0.097   0.556  Mmux_ACC_INPUT81 (ACC_INPUT<7>)
+     LUT6:I2->O            2   0.097   0.299  ACC_REG/REG7/FF/MASTER/U4/U1/n00001 (ACC_REG/REG7/FF/MASTER/U4/U1/n0000)
+     LUT3:I2->O            4   0.097   0.293  ACC_REG/REG7/FF/SLAVE/U4/U1/n00001 (ACC_REG/REG7/FF/SLAVE/U4/U1/n0000)
+     INV:I->O              1   0.113   0.279  ACC_REG/REG7/FF/SLAVE/U4/U1/Y1_INV_0 (Q_7_OBUF)
+     OBUF:I->O                 0.000          Q_7_OBUF (Q<7>)
+    ----------------------------------------
+    Total                     19.844ns (3.800ns logic, 16.044ns route)
+                                       (19.1% logic, 80.9% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |   20.039|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 16.00 secs
+Total CPU time to Xst completion: 15.21 secs
+ 
+--> 
+
+
+Total memory usage is 604676 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   26 (   0 filtered)
+Number of infos    :    7 (   0 filtered)
+

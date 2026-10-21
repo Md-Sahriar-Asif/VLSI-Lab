@@ -1,0 +1,4 @@
+vhdl isim_temp "nand-gate.vhd"
+vhdl isim_temp "not-gate.vhd"
+vhdl isim_temp "or-gate.vhd"
+vhdl isim_temp "or-gate-tb.vhd"

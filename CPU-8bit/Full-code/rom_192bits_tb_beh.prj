@@ -1,0 +1,2 @@
+vhdl work "rom-192bits.vhd"
+vhdl work "rom-192bits-tb.vhd"

@@ -1,0 +1,2 @@
+vhdl isim_temp "rom-192bits.vhd"
+vhdl isim_temp "rom-192bits-tb.vhd"

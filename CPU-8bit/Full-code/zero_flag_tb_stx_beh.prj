@@ -1,0 +1,2 @@
+vhdl isim_temp "zero-flag.vhd"
+vhdl isim_temp "zero-flag-tb.vhd"

@@ -1,0 +1,2 @@
+vhdl isim_temp "pc-4bit.vhd"
+vhdl isim_temp "pc-4bit-tb.vhd"

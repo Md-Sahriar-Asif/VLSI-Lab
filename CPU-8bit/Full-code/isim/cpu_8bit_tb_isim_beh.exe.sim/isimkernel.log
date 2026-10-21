@@ -1,0 +1,29 @@
+Command line:
+   cpu_8bit_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51006
+
+Mon Oct 19 05:46:12 2026
+
+
+ Elaboration Time: 0.11 sec
+
+ Current Memory Usage: 220.803 Meg
+
+ Total Signals          : 2217
+ Total Nets             : 526
+ Total Signal Drivers   : 426
+ Total Blocks           : 610
+ Total Primitive Blocks : 327
+ Total Processes        : 424
+ Total Traceable Variables  : 31
+ Total Scalar Nets and Variables : 1218
+Total Line Count : 458
+
+ Total Simulation Time: 0.3 sec
+
+ Current Memory Usage: 298.402 Meg
+
+Mon Oct 19 06:06:53 2026
+

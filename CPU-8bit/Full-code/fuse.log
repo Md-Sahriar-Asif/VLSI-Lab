@@ -1,0 +1,67 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/DesignCourse_asif/ALU/Full-code/cpu_8bit_tb_isim_beh.exe -prj /home/ise/DesignCourse_asif/ALU/Full-code/cpu_8bit_tb_beh.prj work.cpu_8bit_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/nand-gate-circuit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/not-gate.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/xor-gate.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/and-gate.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/or-gate.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/half-adder-circuit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/sr-latch.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/full-adder-1b.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/low-nibble-4bit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/high-nibble-4bit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/d-latch.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/master-slave-ff.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/full-adder-circuit-8bit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/subtractor-8bit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/register-1bit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/mux-8bit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/zero-flag.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/rom-192bits.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/registe-8bit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/pc-4bit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/control-unit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/alu-8bit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/cpu-8bit.vhd" into library work
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/cpu-8bit-tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 97948 KB
+Fuse CPU Usage: 1210 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture structural of entity pc_4bit [pc_4bit_default]
+Compiling architecture structural of entity rom_192bits [rom_192bits_default]
+Compiling architecture structural of entity control_unit [control_unit_default]
+Compiling architecture dataflow of entity nand_gate [nand_gate_default]
+Compiling architecture structural of entity xor_gate [xor_gate_default]
+Compiling architecture structural of entity not_gate [not_gate_default]
+Compiling architecture structural of entity and_gate [and_gate_default]
+Compiling architecture structural of entity half_adder [half_adder_default]
+Compiling architecture structural of entity or_gate [or_gate_default]
+Compiling architecture structural of entity full_adder [full_adder_default]
+Compiling architecture structural of entity low_nibble_4bit [low_nibble_4bit_default]
+Compiling architecture structural of entity high_nibble_4bit [high_nibble_4bit_default]
+Compiling architecture structural of entity adder_8bit [adder_8bit_default]
+Compiling architecture structural of entity subtractor_8bit [subtractor_8bit_default]
+Compiling architecture structural of entity mux_8bit [mux_8bit_default]
+Compiling architecture structural of entity alu_8bit [alu_8bit_default]
+Compiling architecture structural of entity sr_latch [sr_latch_default]
+Compiling architecture structural of entity d_latch [d_latch_default]
+Compiling architecture structural of entity master_slave_ff [master_slave_ff_default]
+Compiling architecture structural of entity register_1bit [register_1bit_default]
+Compiling architecture structural of entity register_8bit [register_8bit_default]
+Compiling architecture structural of entity zero_flag [zero_flag_default]
+Compiling architecture structural of entity cpu_8bit [cpu_8bit_default]
+Compiling architecture behavior of entity cpu_8bit_tb
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 50 VHDL Units
+Built simulation executable /home/ise/DesignCourse_asif/ALU/Full-code/cpu_8bit_tb_isim_beh.exe
+Fuse Memory Usage: 405640 KB
+Fuse CPU Usage: 1560 ms
+GCC CPU Usage: 1260 ms

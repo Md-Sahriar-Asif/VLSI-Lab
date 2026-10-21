@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/DesignCourse_asif/ALU/Full-code/zero_flag.xst" -ofn "/home/ise/DesignCourse_asif/ALU/Full-code/zero_flag.syr" 
+xst -intstyle ise -ifn "/home/ise/DesignCourse_asif/ALU/Full-code/zero_flag.xst" -ofn "/home/ise/DesignCourse_asif/ALU/Full-code/zero_flag.syr" 

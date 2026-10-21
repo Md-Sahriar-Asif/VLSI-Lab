@@ -1,0 +1,459 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Reading design: alu_8bit.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "alu_8bit.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "alu_8bit"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : alu_8bit
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/nand-gate-circuit.vhd" into library work
+Parsing entity <nand_gate>.
+Parsing architecture <Dataflow> of entity <nand_gate>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/not-gate.vhd" into library work
+Parsing entity <not_gate>.
+Parsing architecture <Structural> of entity <not_gate>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/xor-gate.vhd" into library work
+Parsing entity <xor_gate>.
+Parsing architecture <Structural> of entity <xor_gate>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/and-gate.vhd" into library work
+Parsing entity <and_gate>.
+Parsing architecture <Structural> of entity <and_gate>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/or-gate.vhd" into library work
+Parsing entity <or_gate>.
+Parsing architecture <Structural> of entity <or_gate>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/half-adder-circuit.vhd" into library work
+Parsing entity <half_adder>.
+Parsing architecture <Structural> of entity <half_adder>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/full-adder-1b.vhd" into library work
+Parsing entity <full_adder>.
+Parsing architecture <Structural> of entity <full_adder>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/low-nibble-4bit.vhd" into library work
+Parsing entity <low_nibble_4bit>.
+Parsing architecture <Structural> of entity <low_nibble_4bit>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/high-nibble-4bit.vhd" into library work
+Parsing entity <high_nibble_4bit>.
+Parsing architecture <Structural> of entity <high_nibble_4bit>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/full-adder-circuit-8bit.vhd" into library work
+Parsing entity <adder_8bit>.
+Parsing architecture <Structural> of entity <adder_8bit>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/subtractor-8bit.vhd" into library work
+Parsing entity <subtractor_8bit>.
+Parsing architecture <Structural> of entity <subtractor_8bit>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/mux-8bit.vhd" into library work
+Parsing entity <mux_8bit>.
+Parsing architecture <Structural> of entity <mux_8bit>.
+Parsing VHDL file "/home/ise/DesignCourse_asif/ALU/Full-code/alu-8bit.vhd" into library work
+Parsing entity <alu_8bit>.
+Parsing architecture <Structural> of entity <alu_8bit>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <alu_8bit> (architecture <Structural>) from library <work>.
+
+Elaborating entity <adder_8bit> (architecture <Structural>) from library <work>.
+
+Elaborating entity <low_nibble_4bit> (architecture <Structural>) from library <work>.
+
+Elaborating entity <full_adder> (architecture <Structural>) from library <work>.
+
+Elaborating entity <half_adder> (architecture <Structural>) from library <work>.
+
+Elaborating entity <xor_gate> (architecture <Structural>) from library <work>.
+
+Elaborating entity <nand_gate> (architecture <Dataflow>) from library <work>.
+
+Elaborating entity <and_gate> (architecture <Structural>) from library <work>.
+
+Elaborating entity <not_gate> (architecture <Structural>) from library <work>.
+
+Elaborating entity <or_gate> (architecture <Structural>) from library <work>.
+
+Elaborating entity <high_nibble_4bit> (architecture <Structural>) from library <work>.
+
+Elaborating entity <subtractor_8bit> (architecture <Structural>) from library <work>.
+
+Elaborating entity <mux_8bit> (architecture <Structural>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <alu_8bit>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/alu-8bit.vhd".
+INFO:Xst:3210 - "/home/ise/DesignCourse_asif/ALU/Full-code/alu-8bit.vhd" line 61: Output port <COUT> of the instance <ADDER> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ise/DesignCourse_asif/ALU/Full-code/alu-8bit.vhd" line 71: Output port <BORROW> of the instance <SUBTRACTOR> is unconnected or connected to loadless signal.
+    Summary:
+Unit <alu_8bit> synthesized.
+
+Synthesizing Unit <adder_8bit>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/full-adder-circuit-8bit.vhd".
+    Summary:
+	no macro.
+Unit <adder_8bit> synthesized.
+
+Synthesizing Unit <low_nibble_4bit>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/low-nibble-4bit.vhd".
+    Summary:
+	no macro.
+Unit <low_nibble_4bit> synthesized.
+
+Synthesizing Unit <full_adder>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/full-adder-1b.vhd".
+    Summary:
+	no macro.
+Unit <full_adder> synthesized.
+
+Synthesizing Unit <half_adder>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/half-adder-circuit.vhd".
+    Summary:
+	no macro.
+Unit <half_adder> synthesized.
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/xor-gate.vhd".
+    Summary:
+	no macro.
+Unit <xor_gate> synthesized.
+
+Synthesizing Unit <nand_gate>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/nand-gate-circuit.vhd".
+    Summary:
+	no macro.
+Unit <nand_gate> synthesized.
+
+Synthesizing Unit <and_gate>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/and-gate.vhd".
+    Summary:
+	no macro.
+Unit <and_gate> synthesized.
+
+Synthesizing Unit <not_gate>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/not-gate.vhd".
+    Summary:
+	no macro.
+Unit <not_gate> synthesized.
+
+Synthesizing Unit <or_gate>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/or-gate.vhd".
+    Summary:
+	no macro.
+Unit <or_gate> synthesized.
+
+Synthesizing Unit <high_nibble_4bit>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/high-nibble-4bit.vhd".
+    Summary:
+	no macro.
+Unit <high_nibble_4bit> synthesized.
+
+Synthesizing Unit <subtractor_8bit>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/subtractor-8bit.vhd".
+    Summary:
+	no macro.
+Unit <subtractor_8bit> synthesized.
+
+Synthesizing Unit <mux_8bit>.
+    Related source file is "/home/ise/DesignCourse_asif/ALU/Full-code/mux-8bit.vhd".
+    Summary:
+	no macro.
+Unit <mux_8bit> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 1
+ 8-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <U2> is unconnected in block <U1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <U2> is unconnected in block <U2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <U3> is unconnected in block <GEN_ADD[3].FA>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <U2> is unconnected in block <U1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <U2> is unconnected in block <U2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <U3> is unconnected in block <GEN_ADD[3].FA>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <U1> is unconnected in block <U1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <U3> is unconnected in block <U1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <U2> is unconnected in block <U2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <U2> is unconnected in block <U3>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 1
+ 8-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <alu_8bit> ...
+
+Optimizing unit <subtractor_8bit> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block alu_8bit, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : alu_8bit.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 32
+#      LUT3                        : 4
+#      LUT4                        : 5
+#      LUT5                        : 7
+#      LUT6                        : 15
+#      MUXF7                       : 1
+# IO Buffers                       : 28
+#      IBUF                        : 19
+#      OBUF                        : 9
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                   31  out of  63400     0%  
+    Number used as Logic:                31  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     31
+   Number with an unused Flip Flop:      31  out of     31   100%  
+   Number with an unused LUT:             0  out of     31     0%  
+   Number of fully used LUT-FF pairs:     0  out of     31     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          28
+ Number of bonded IOBs:                  28  out of    210    13%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 4.032ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 392 / 9
+-------------------------------------------------------------------------
+Delay:               4.032ns (Levels of Logic = 8)
+  Source:            B<2> (PAD)
+  Destination:       FLAG (PAD)
+
+  Data Path: B<2> to FLAG
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             6   0.001   0.716  B_2_IBUF (B_2_IBUF)
+     LUT6:I0->O            3   0.097   0.521  MUX/Y<3>211 (MUX/Y<3>21)
+     LUT5:I2->O            3   0.097   0.389  MUX/Y<5>21 (MUX/Y<5>2)
+     LUT3:I1->O            2   0.097   0.561  MUX/Y<6>21 (MUX/Y<6>2)
+     LUT6:I2->O            2   0.097   0.688  MUX/Y<7>3 (MUX/Y<7>2)
+     LUT6:I1->O            1   0.097   0.295  FLAG<7>_SW0 (N01)
+     LUT6:I5->O            1   0.097   0.279  FLAG<7> (FLAG_OBUF)
+     OBUF:I->O                 0.000          FLAG_OBUF (FLAG)
+    ----------------------------------------
+    Total                      4.032ns (0.583ns logic, 3.449ns route)
+                                       (14.5% logic, 85.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 17.00 secs
+Total CPU time to Xst completion: 15.15 secs
+ 
+--> 
+
+
+Total memory usage is 594624 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   10 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

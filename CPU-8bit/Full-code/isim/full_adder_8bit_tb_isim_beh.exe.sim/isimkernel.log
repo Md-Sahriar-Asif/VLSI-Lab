@@ -1,0 +1,29 @@
+Command line:
+   full_adder_8bit_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  47616
+
+Wed Sep 23 19:28:45 2026
+
+
+ Elaboration Time: 0.09 sec
+
+ Current Memory Usage: 217.063 Meg
+
+ Total Signals          : 775
+ Total Nets             : 141
+ Total Signal Drivers   : 127
+ Total Blocks           : 229
+ Total Primitive Blocks : 121
+ Total Processes        : 125
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 509
+Total Line Count : 149
+
+ Total Simulation Time: 0.11 sec
+
+ Current Memory Usage: 294.662 Meg
+
+Wed Sep 23 19:30:06 2026
+
