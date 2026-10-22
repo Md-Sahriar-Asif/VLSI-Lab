@@ -7,6 +7,7 @@
 
 <p align="center">
   <strong>Course:</strong> VLSI Design Lab<br>
+  <strong>Course Code:</strong> CSE 450<br>
   <strong>Section:</strong> AB2
 </p>
 
@@ -43,6 +44,7 @@ The main goal of this repository is to maintain an organized, version-controlled
 
 ## 📂 Repository Structure
 
+```text
 VLSI-Lab/
 │
 ├── Full-adder-1bit/
@@ -71,6 +73,7 @@ VLSI-Lab/
 |   └── Question of other sec
 │
 └── README.md
+```
 
 *Note: Each folder contains the corresponding lab work and supporting materials.*
 
@@ -161,5 +164,6 @@ I would like to express my sincere gratitude to **Md Rasheduzzaman, Lecturer, De
 
 <p align="center">
   <strong>VLSI Design Lab | CSE | University of Asia Pacific</strong><br>
-  <em>Every bit has a purpose and every circuit tells a story.</em>
+  <em>"Every bit has a purpose and every circuit tells a story."</em>
 </p>
+
